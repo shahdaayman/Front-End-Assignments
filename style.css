@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+ }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0px 20px;
+}
+
+ .container .header{
+width: 50%;
+padding-bottom: 50px;
+}
+
+.container .heading h3{
+font-size: 3em;
+font-weight: bolder;
+padding-bottom: 10px;
+border-bottom: 3px solid #222;
+}
+
+.container .heading h3 span{
+font-weight: 100;
+}
+
+
+ table{
+    width: 100%;
+    border-collapse: collapse;
+ }
+
+ table, tr, th, td{
+    border: 1px solid black;
+ }
+
+ .animal-img{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   overflow: hidden;
+ }
+
+  .animal-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+ td{
+    padding: 15px;
+    text-align: center;
+ }
+
+ body{
+    padding: 50px;
+ }
